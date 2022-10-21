@@ -1,0 +1,40 @@
+ *,
+ *::after,
+ *::before,
+ body,
+ html {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+
+ }
+
+ .widget-title:before {
+     content: "";
+     height: 3px;
+     width: 8px;
+     background-color: #615dfa;
+     border-radius: 4px;
+     position: absolute;
+     left: 0;
+     bottom: 0;
+ }
+
+ .widget-title:after {
+     content: "";
+     height: 3px;
+     width: 18px;
+     background-color: #615dfa;
+     border-radius: 4px;
+     position: absolute;
+     left: 10px;
+     bottom: 0;
+ }
+
+ .container {
+     /* background: rgb(239, 244, 251); */
+ }
+
+ .container1 {
+     margin-bottom: 15px;
+ }

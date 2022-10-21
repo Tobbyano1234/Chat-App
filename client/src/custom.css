@@ -1,0 +1,139 @@
+.community-post {
+    border-radius: 6px;
+    background-color: #d3d5dc;
+    box-shadow: 0 2px 8px 0 rgb(2 47 57 / 10%);
+    padding: 23px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid transparent;
+  }
+  .community-post.style-two:not(:last-child) {
+    border-bottom: 10px solid #f2f3f4;
+  }
+  .community-post.style-two {
+    margin-bottom: 0;
+    border-radius: 0;
+    box-shadow: none;
+    position: relative;
+  }
+  
+  .community-post.style-two .post-content .entry-content .post-title {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .community-post.style-two .entry-content .post-title {
+    font-size: 16px;
+  }
+  .community-post .post-content .entry-content .post-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1d2746;
+    margin-bottom: 0;
+    line-height: 1.7;
+  }
+
+.community-post .post-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.community-post .post-content .author-avatar {
+    width: 40px;
+    margin-right: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 40px;
+}
+.community-post .post-content .author-avatar img {
+    max-width: 40px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.community-post .post-content .entry-content {
+    flex: 2;
+}
+.community-post.style-two .post-content .entry-content .post-title {
+    display: inline-block;
+    margin-right: 10px;
+}
+.community-post.style-two .entry-content .post-title {
+    font-size: 16px;
+}
+.community-post .post-content .entry-content .post-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1d2746;
+    margin-bottom: 0;
+    line-height: 1.7;
+}
+.community-post.style-two .meta {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.community-post.style-two .meta li i, .community-post.style-two .meta li img {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.community-post.style-two .meta li img {
+    display: inline-block;
+    vertical-align: -2px;
+}
+
+.community-post.style-two .meta li a {
+    font-size: 14px;
+    color: #838793;
+}
+.community-post.style-two .meta li {
+    display: inline-block;
+    margin-right: 15px;
+    color: #838793;
+    font-size: 14px;
+}
+
+.community-post.style-two .post-content .entry-content .post-title {
+    display: inline-block;
+    margin-right: 10px;
+}
+.community-post.style-two .entry-content .post-title {
+    font-size: 16px;
+}
+.community-post .post-content .entry-content .post-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1d2746;
+    margin-bottom: 0;
+    line-height: 1.7;
+}
+
+.community-post .post-content .entry-content .post-title a {
+    color: #1d2746;
+}
+a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.community-post .post-meta-wrapper .post-meta-info li a {
+    display: block;
+    color: #868b99;
+}
+.community-post .post-meta-wrapper .post-meta-info {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+div.post-meta-wrapper > ul > li:nth-child(2) {
+    margin-left: 2rem;
+    
+} 

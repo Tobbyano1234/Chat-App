@@ -1,0 +1,49 @@
+.card.card-no-transform, .card.card-static {
+    transform: none !important;
+    -webkit-animation: none !important;
+    animation: none !important;
+    z-index: auto !important;
+    will-change: auto !important;
+}
+.card, .blog-posts .card, .archive-posts .card, .grimlock-query-section__posts .card, .grimlock-term-query-section__terms .card, .modal .modal-content, .post-password-form, .single .wp-playlist-light, article[id*="post-"] > .entry-content > #loginform, .bp_register #register-page .standard-form .register-section, #buddypress:not(.youzer) #activity-stream.grimlock-buddypress-activity-list .activity-item, .lwa.lwa-divs-only, .buddypress.directory.members .region--9-3-cols-left .widget, .buddypress.directory.members .region--3-9-cols-left .widget, .buddypress.directory.activity .region--9-3-cols-left .widget, .buddypress.directory.activity .region--3-9-cols-left .widget, .buddypress.directory.groups .region--9-3-cols-left .widget, .buddypress.directory.groups .region--3-9-cols-left .widget, .post-save-options.messages-container, .users-blocked, #buddypress:not(.youzer) #activity-stream.grimlock-buddypress-activity-list .load-more > a, #buddypress:not(.youzer) #activity-stream.grimlock-buddypress-activity-list .load-newest > a, .buddypress.directory.members #buddypress:not(.youzer) .bps_filters, #articles-dir-list #articles-container > #message, #bbp-search-form, .profile-content__body #subnav ~ form.standard-form, .buddypress.settings.bp-user.privacy .profile-content__body #subnav ~ form, #buddypress > .pos-r > .bps_form, #docs-filter-sections .docs-filter-section, .card, .single .wp-playlist-light, article[id*="post-"] > .entry-content > #loginform, .modal .modal-content, .posts-filters, .posts-filters .priority-nav__dropdown, .posts-filters .priority-nav__dropdown {
+    border-width: 0px;
+    border-color: rgba(0,0,0,0);
+    --post-box-shadow-color: rgba(82, 63, 105, .05);
+}
+.card {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    word-break: break-word;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    text-align: left;
+}
+.card {
+    background-color: var(--grimlock-archive-post-background-color);
+    border: var(--grimlock-archive-post-border-width) solid var(--grimlock-archive-post-border-color);
+    border-radius: var(--grimlock-archive-post-border-radius);
+    box-shadow: var(--grimlock-archive-post-box-shadow-x-offset) var(--grimlock-archive-post-box-shadow-y-offset) var(--grimlock-archive-post-box-shadow-blur-radius) var(--grimlock-archive-post-box-shadow-spread-radius) var(--grimlock-archive-post-box-shadow-color);
+    padding: 0;
+    color: var(--grimlock-archive-post-color);
+}
+#homepage-anchor, body {
+    color: #6c7293;
+}
+
+
+
+#buddypress #item-body form#whats-new-form, #buddypress form#whats-new-form {
+    margin: 0 0 1rem 0;
+    padding: 1rem;
+    border-radius: var(--grimlock-archive-post-border-radius) !important;
+}
+.whats-new-form {
+}
+.card.card-no-transform, .card.card-static {
+    transform: none !important;
+    -webkit-animation: none !important;
+    animation: none !important;
+    z-index: auto !important;
+    will-change: auto !important;
+}

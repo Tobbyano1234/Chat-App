@@ -1,0 +1,134 @@
+/* 
+
+.carousel{
+    background-color: 90B77D;
+    border-radius: 10px; 
+    width: 550px;
+    margin: 50px auto;
+    padding: 20px;
+    height: 560px;
+}
+.card {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    width: 450px;
+    margin: 50px auto;
+}
+
+.form{
+    background-color: 90B77D;
+    border-radius: 10px;
+    width: 550px;
+    margin: 50px auto;
+    padding: 20px;
+    height: fit-content;
+    align-content: center;
+    justify-content: center;
+}
+
+.form-body{
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.form-body > *{
+    padding: 5px;
+}
+
+.form__label{
+    width: 40%;
+}
+
+.form_input{
+    width: 60%;
+}
+
+.footer{
+    text-align: center;
+}
+
+
+.main {
+    padding: 100px 0;
+    position: relative;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 1.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+  }
+.container {
+    grid-template: flex;
+    width: 520px;
+    background: transparent;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+*/
+
+input[type="checkbox"].switch_1 {
+    font-size: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 3.5em;
+    height: 1.5em;
+    background: #ddd;
+    border-radius: 3em;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+input[type="checkbox"].switch_1:checked {
+    background: #0ebeff;
+}
+
+input[type="checkbox"].switch_1:after {
+    position: absolute;
+    content: "";
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    background: #fff;
+    -webkit-box-shadow: 0 0 .25em rgba(0, 0, 0, .3);
+    box-shadow: 0 0 .25em rgba(0, 0, 0, .3);
+    -webkit-transform: scale(.7);
+    transform: scale(.7);
+    left: 0;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+input[type="checkbox"].switch_1:checked:after {
+    left: calc(100% - 1.5em);
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.setup-inputs {
+    padding: 10px;
+    outline: none;
+    border: 2px solid #0ebeff;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.card-body {
+    background-color: #ffffff;
+}

@@ -1,0 +1,107 @@
+*, *::before, *::after, body, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.gradient-custom-2 {
+    background: #fccb90;
+    background: -webkit-linear-gradient(to right, #24b8ee, #3667d8, #5d36dd, #9845b4);
+    background: linear-gradient(to right, #24b8ee, #3667d8, #6b36dd, #9845b4);
+  }
+
+  @media (min-width: 768px) {
+    .gradient-form {
+      height: 100vh !important;
+    }
+  }
+
+  @media (min-width: 769px) {
+    .gradient-custom-2 {
+      border-top-right-radius: .3rem;
+      border-bottom-right-radius: .3rem;
+    }
+  }
+  element.style {
+    background-color: #eee;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+@media (min-width: 1200px){
+.p-xl-5 {
+    padding: 3rem!important;
+}
+.p-4 {
+    padding: 1.5rem!important;
+}
+.w-100 {
+    width: 100%!important;
+}
+}
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--mdb-gutter-x)*0.5);
+    padding-left: calc(var(--mdb-gutter-x)*0.5);
+    margin-top: var(--mdb-gutter-y);
+}
+.card {
+    border: 0;
+    box-shadow: 0 2px 15px -3px rgb(0 0 0 / 7%), 0 10px 20px -2px rgb(0 0 0 / 4%);
+}
+.rounded-3 {
+    border-radius: 0.3rem!important;
+}
+.text-black {
+    --mdb-text-opacity: 1;
+    color: rgba(var(--mdb-black-rgb),var(--mdb-text-opacity))!important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.5rem;
+}
+.text-black {
+    --mdb-text-opacity: 1;
+    color: rgba(var(--mdb-black-rgb),var(--mdb-text-opacity))!important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.5rem;
+}
+.bg-white {
+    --mdb-bg-opacity: 1;
+    background-color: rgba(var(--mdb-white-rgb),var(--mdb-bg-opacity))!important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.5rem;
+}
+.bg-white {
+    --mdb-bg-opacity: 1;
+    background-color: rgba(var(--mdb-white-rgb),var(--mdb-bg-opacity))!important;
+}
